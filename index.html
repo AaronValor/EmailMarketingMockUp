@@ -7,10 +7,66 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/trix/1.0.0/trix.js" integrity="sha256-brLj1d7SAz/bJAoKoem2eQanjo/JtScsctc+LQxWeg0=" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>
-Hello world!!
-<input id="x" type="hidden" name="content">
-<trix-editor input="x"></trix-editor>
-</h1>
+	<div class="container">
+		<h1>Create Email</h1>
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="row">
+					<h3>Recipients</h3>
+				</div>
+				<div class="row">
+					<h3>Selections</h3>
+				</div>
+				<div class="row">
+					<h3>Content</h3>
+				</div>
+				<div class="row">
+					<h3>Preview</h3>
+				</div>
+			</div>
+			<div class="col-sm-9">
+				<div>
+					<h4>Select Recipients</h4>
+				<div>
+				<div>
+					You have selected 5 recipients <button>Change</button>
+				</div>
+				<div>
+					<h4>Select Comunity</h4>
+				</div>
+				<div>
+					<select>
+						<option>11110000</option>
+						<option>22220000</option>
+						<option>33330000</option>
+					</select>
+				</div>
+				<div>
+					<h4>Show Promotions</h4>
+				</div>
+				<div>
+					<select>
+						<option>Yes</option>
+						<option>No</option>
+					</select>
+				</div>
+				<div>
+					<h4>Select Quick Move-ins</h4>
+				</div>
+				<div>
+					<select>
+						<option>11110001</option>
+						<option>22220002</option>
+						<option>33330003</option>
+					</select>
+				</div>
+				<div>
+					<h4>Create Content</h4>
+				</div>
+				<input id="x" type="hidden" name="content">
+				<trix-editor input="x"></trix-editor>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
