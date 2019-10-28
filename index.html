@@ -1,78 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/trix/1.0.0/trix.css" integrity="sha256-Hrr0UowqCcRYW9fVfg42ScC+tPq+FJgy9nWfr+PZVfc=" crossorigin="anonymous" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/trix/1.0.0/trix.js" integrity="sha256-brLj1d7SAz/bJAoKoem2eQanjo/JtScsctc+LQxWeg0=" crossorigin="anonymous"></script>
 </head>
+<style>
+body {
+	align-self: center;
+	text-align: center;
+}
+.logo {
+	max-width: 50%;
+	max-height: 50%;
+}
+.btn {
+  	width: 90%;
+}
+a {
+	margin-bottom: 12px;
+}
+</style>
 <body>
-	<div class="container">
-		<h1>Create Email</h1>
-		<div class="row">
-			<div class="col-sm-2">
-				<div class="row">
-					<h3>Recipients</h3>
-				</div>
-				<div class="row">
-					<h3>Selections</h3>
-				</div>
-				<div class="row">
-					<h3>Content</h3>
-				</div>
-				<div class="row">
-					<h3>Preview</h3>
-				</div>
-			</div>
-			<div class="col-sm-9">
-				<div>
-					<h4>Select Recipients</h4>
-				<div>
-				<div>
-					You have selected 5 recipients <button>Change</button>
-				</div>
-				<div>
-					<h4>Select Community</h4>
-				</div>
-				<div>
-					<select>
-						<option>11110000</option>
-						<option>22220000</option>
-						<option>33330000</option>
-					</select>
-				</div>
-				<div>
-					<h4>Show Promotions</h4>
-				</div>
-				<div>
-					<select>
-						<option>Yes</option>
-						<option>No</option>
-					</select>
-				</div>
-				<div>
-					<h4>Select Quick Move-ins</h4>
-				</div>
-				<div>
-					<select>
-						<option>11110001</option>
-						<option>22220002</option>
-						<option>33330003</option>
-					</select>
-				</div>
-				<div>
-					<h4>Create Content</h4>
-				</div>
-				<input id="x" type="hidden" name="content">
-				<trix-editor input="x"></trix-editor>
-				<div>
-					<h4>CTA</h4>
-				</div>
-				<div>
-					<input></input>
-				</div>
-			</div>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<img class="logo" src="logo.png">
+			<hr class="my-4">
+			<p class="lead">Specialize in cookie kits and classes.</p>
 		</div>
+	</div>
+	<div>
+		<a 	class="btn btn-secondary btn-lg" 
+			href="#" 
+			role="button">Facebook</a>
+		<a 	class="btn btn-secondary btn-lg" 
+			href="#" 
+			role="button">Other Link</a>
+		<a 	class="btn btn-secondary btn-lg" 
+			href="#" 
+			role="button">Best Button</a>
 	</div>
 </body>
 </html>
